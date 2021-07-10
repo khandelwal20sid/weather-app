@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.curLoc {
+  height: 590px !important;
+}
+
+@media screen and (max-width: 480px){
+  .curLoc {
+    height: 530px !important;
+  }
+}
