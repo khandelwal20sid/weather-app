@@ -105,9 +105,9 @@ class Home extends Component {
                                 cities: this.state.cities                                
                             }
                         }}>History</Link>
-                    <Link className="btn btn-dark mx-2" to={{
+                    {/* <Link className="btn btn-dark mx-2" to={{
                             pathname:"/current-location",                            
-                        }}>Your Location</Link>                                            
+                        }}>Your Location</Link>                                             */}
                     </div>
                     <div className="container py-4">
                         <form onSubmit={this.handleSumit}>

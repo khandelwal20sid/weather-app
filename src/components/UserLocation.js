@@ -13,8 +13,7 @@ class UserLocation extends Component {
       
     componentDidMount(){
         navigator.geolocation.getCurrentPosition(
-            position => {
-                console.log("lat:",position.coords.latitude,"lon", position.coords.longitude);                
+            position => {                        
                 this.setState({
                   lat : position.coords.latitude,
                   lon: position.coords.longitude
