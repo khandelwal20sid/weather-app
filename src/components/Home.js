@@ -63,7 +63,7 @@ class Home extends Component {
                 })
             })
             .catch(()=>{
-                console.log("Error!");
+                console.log("Error!");               
                 this.setState({                    
                     error:true
                 })
@@ -74,8 +74,7 @@ class Home extends Component {
         const goodtogo = this.state.goodtogo
         const { error } = this.state
         let card
-        if (goodtogo) {
-            console.log(this.state.cities);
+        if (goodtogo) {           
             card = <CityCard
                 city={this.state.cities[0].cityName}
                 country={this.state.cities[0].country}
