@@ -92,7 +92,7 @@ class Home extends Component {
         }
         if (error) {
             card = <Error />
-        }                  
+        }
         return (
             <div>
                 <div className="bg-warning">
